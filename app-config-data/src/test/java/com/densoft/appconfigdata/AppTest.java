@@ -1,4 +1,4 @@
-package com.densoft.app-config-data;
+package com.densoft.appconfigdata;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
