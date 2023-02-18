@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: configserver
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/devgithinji/config-repo
+          default-label: master
+          clone-on-start: true
+    fail-fast: true
