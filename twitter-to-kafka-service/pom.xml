@@ -70,13 +70,13 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
                     <imageName>densoftdev/${project.artifactId}:${project.version}</imageName>
-<!--                    <publish>true</publish>-->
-<!--                    <docker>-->
-<!--                        <publishRegistry>-->
-<!--                            <username>${env.DOCKER_HUB_USERNAME}</username>-->
-<!--                            <password>${env.DOCKER_HUB_PASS}</password>-->
-<!--                        </publishRegistry>-->
-<!--                    </docker>-->
+                    <publish>true</publish>
+                    <docker>
+                        <publishRegistry>
+                            <username>${env.DOCKER_HUB_USERNAME}</username>
+                            <password>${env.DOCKER_HUB_PASS}</password>
+                        </publishRegistry>
+                    </docker>
                 </configuration>
                 <executions>
                     <execution>
