@@ -5,7 +5,7 @@ target/
 !**/src/test/**/target/
 
 config-server-repository
-
+*.log
 ### STS ###
 .apt_generated
 .classpath
