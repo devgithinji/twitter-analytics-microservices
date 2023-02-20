@@ -29,7 +29,7 @@
     </appender>
 
 
-    <logger name="com.denosft" level="info" additivity="false">
+    <logger name="com.densoft" level="info" additivity="false">
         <appender-ref ref="FILE"/>
         <appender-ref ref="STDOUT"/>
     </logger>
