@@ -1,4 +1,4 @@
-package com.kafkaconsumer.config;
+package com.densoft.kafkaconsumer.config;
 
 import com.densoft.appconfigdata.config.KafkaConfigData;
 import com.densoft.appconfigdata.config.KafkaConsumerConfigData;

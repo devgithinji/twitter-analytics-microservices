@@ -32,6 +32,7 @@ services:
     image: densoftdev/config-server:0.0.1-SNAPSHOT
     ports:
       - "5006:5006"
+      - "8888:8888"
     volumes:
       - "./docker-logs:/workspace/config-server/logs"
     environment:
