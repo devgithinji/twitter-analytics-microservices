@@ -5,7 +5,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/devgithinji/config-repo
+          uri: /home/dennis/IdeaProjects/microservices-demo/config-server-repository
           default-label: master
           clone-on-start: true
     fail-fast: true

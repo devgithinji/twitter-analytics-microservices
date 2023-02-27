@@ -17,8 +17,14 @@ public class KafkaAdminConfig {
 
     private final KafkaConfigData kafkaConfigData;
 
+
     @Bean
     public AdminClient adminClient() {
+        System.out.println("here");
+        System.out.println(kafkaConfigData.getBoostrapServers());
+        System.out.println(kafkaConfigData.getSchemaRegistryUrlKey());
+        System.out.println(kafkaConfigData);
+
         return AdminClient.create(Map.of(CommonClientConfigs.BOOTSTRAP_SERVERS_CONFIG, kafkaConfigData.getBoostrapServers()));
     }
 }

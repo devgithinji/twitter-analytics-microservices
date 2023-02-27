@@ -1,6 +1,6 @@
 spring:
   application:
-    name: twitter-to-elastic-service
+    name: kafka-to-elastic-service
   profiles:
     active: kafka_to_elastic
   cloud:
@@ -11,4 +11,4 @@ spring:
       password: ENC(jNpz/1iMHOljF3ERRk8kV9hp4OahogLdtEFLQg/zbMJVcVgzgaziZxHTx7KZsEhGMnLowU0EHOyuROm5Bf/74Q==)
 jasypt:
   encryptor:
-    password: ${JASYPT_ENCRYPTOR_PASSWORD}
+     password: ${JASYPT_ENCRYPTOR_PASSWORD}

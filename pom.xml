@@ -21,6 +21,10 @@
         <module>config-server</module>
         <module>kafka/kafka-consumer</module>
         <module>kafka-to-elastic-service</module>
+        <module>elastic</module>
+        <module>elastic/elastic-config</module>
+        <module>elastic/elastic-index-client</module>
+        <module>elastic/elastic-model</module>
     </modules>
     <packaging>pom</packaging>
     <properties>

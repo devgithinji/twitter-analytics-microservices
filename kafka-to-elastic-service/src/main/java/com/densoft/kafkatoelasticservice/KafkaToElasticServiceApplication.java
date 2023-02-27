@@ -12,7 +12,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
         "com.densoft.kafkatoelasticservice",
         "com.densoft.kafkaconsumer",
         "com.densoft.kafka.admin",
-        "com.densoft.retryConfig",
+        "com.densoft.retryConfig"
 })
 public class KafkaToElasticServiceApplication
 {

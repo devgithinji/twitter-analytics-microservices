@@ -18,4 +18,6 @@ public class KafkaConfigData {
     private Integer numOfPartitions;
     private Short replicationFactor;
 
+
+
 }
