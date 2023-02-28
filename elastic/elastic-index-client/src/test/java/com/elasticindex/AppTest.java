@@ -1,4 +1,4 @@
-package com.densoft;
+package com.elasticindex;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

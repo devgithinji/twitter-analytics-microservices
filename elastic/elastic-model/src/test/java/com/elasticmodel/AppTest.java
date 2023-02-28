@@ -1,4 +1,4 @@
-package com.densoft;
+package com.elasticmodel;
 
 import junit.framework.Test;
 import junit.framework.TestCase;
