@@ -2,17 +2,10 @@ package com.densoft.kafkatoelasticservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.elasticsearch.repository.config.EnableElasticsearchRepositories;
 
-@SpringBootApplication(scanBasePackages = {
-        "com.densoft.appconfigdata",
-        "com.densoft.kafkatoelasticservice",
-        "com.densoft.kafkaconsumer",
-        "com.densoft.kafka.admin",
-        "com.densoft.retryConfig",
-        "com.elasticindex",
-        "com.elasticonfig",
-        "com.elasticmodel"
-})
+@SpringBootApplication(scanBasePackages = {"com.densoft"})
+@EnableElasticsearchRepositories(basePackages = "com.densoft.elasticindex.repository")
 public class KafkaToElasticServiceApplication
 {
     public static void main( String[] args )

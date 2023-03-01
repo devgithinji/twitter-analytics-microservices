@@ -12,7 +12,7 @@ public class TestJasypt {
         standardPBEStringEncryptor.setPassword("secret1234!");
         standardPBEStringEncryptor.setAlgorithm("PBEWithHMACSHA512AndAES_256");
         standardPBEStringEncryptor.setIvGenerator(new RandomIvGenerator());
-        String result = standardPBEStringEncryptor.encrypt("spring_cloud_pwd");
+        String result = standardPBEStringEncryptor.encrypt("test1234");
         System.out.println(result);
         System.out.println(standardPBEStringEncryptor.decrypt(result));
     }

@@ -1,7 +1,7 @@
 package com.densoft.kafkatoelasticservice.transfomer;
 
 import com.densoft.demo.kafka.avro.model.TwitterAvroModel;
-import com.elasticmodel.index.impl.TwitterIndexModel;
+import com.densoft.elasticmodel.index.impl.TwitterIndexModel;
 import org.springframework.stereotype.Component;
 
 import java.time.Instant;
