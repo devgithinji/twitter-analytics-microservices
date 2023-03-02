@@ -2,8 +2,8 @@ package com.densoft.elasticqueryservice.model.assembler;
 
 import com.densoft.elasticmodel.index.impl.TwitterIndexModel;
 import com.densoft.elasticqueryservice.api.ElasticDocumentController;
-import com.densoft.elasticqueryservice.model.ElasticQueryServiceResponseModel;
-import com.densoft.elasticqueryservice.transformer.ElasticToResponseModelTransformer;
+import com.densoft.elasticqueryservicecommon.model.ElasticQueryServiceResponseModel;
+import com.densoft.elasticqueryservicecommon.transformer.ElasticToResponseModelTransformer;
 import org.springframework.hateoas.server.mvc.RepresentationModelAssemblerSupport;
 import org.springframework.stereotype.Component;
 

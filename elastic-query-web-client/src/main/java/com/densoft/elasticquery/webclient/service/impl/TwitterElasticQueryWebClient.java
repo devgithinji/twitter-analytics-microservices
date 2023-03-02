@@ -1,10 +1,10 @@
 package com.densoft.elasticquery.webclient.service.impl;
 
 import com.densoft.appconfigdata.config.ElasticQueryWebClientConfigData;
-import com.densoft.elasticquery.webclient.exception.ElasticQueryWebClientException;
-import com.densoft.elasticquery.webclient.model.ElasticQueryWebClientRequestModel;
-import com.densoft.elasticquery.webclient.model.ElasticQueryWebClientResponseModel;
 import com.densoft.elasticquery.webclient.service.ElasticQueryWebClient;
+import com.densoft.elasticquerywebclientcommon.exception.ElasticQueryWebClientException;
+import com.densoft.elasticquerywebclientcommon.model.ElasticQueryWebClientRequestModel;
+import com.densoft.elasticquerywebclientcommon.model.ElasticQueryWebClientResponseModel;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.core.ParameterizedTypeReference;

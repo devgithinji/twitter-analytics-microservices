@@ -1,9 +1,9 @@
 package com.densoft.elasticqueryservice.api;
 
 import com.densoft.elasticqueryservice.business.ElasticQueryService;
-import com.densoft.elasticqueryservice.model.ElasticQueryServiceRequestModel;
-import com.densoft.elasticqueryservice.model.ElasticQueryServiceResponseModel;
 import com.densoft.elasticqueryservice.model.ElasticQueryServiceResponseModelV2;
+import com.densoft.elasticqueryservicecommon.model.ElasticQueryServiceRequestModel;
+import com.densoft.elasticqueryservicecommon.model.ElasticQueryServiceResponseModel;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;

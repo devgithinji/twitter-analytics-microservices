@@ -1,7 +1,9 @@
 package com.densoft.elasticquery.webclient.service;
 
-import com.densoft.elasticquery.webclient.model.ElasticQueryWebClientRequestModel;
-import com.densoft.elasticquery.webclient.model.ElasticQueryWebClientResponseModel;
+
+
+import com.densoft.elasticquerywebclientcommon.model.ElasticQueryWebClientRequestModel;
+import com.densoft.elasticquerywebclientcommon.model.ElasticQueryWebClientResponseModel;
 
 import java.util.List;
 

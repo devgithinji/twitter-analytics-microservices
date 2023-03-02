@@ -1,8 +1,9 @@
 package com.densoft.elasticquery.webclient.api;
 
-import com.densoft.elasticquery.webclient.model.ElasticQueryWebClientRequestModel;
-import com.densoft.elasticquery.webclient.model.ElasticQueryWebClientResponseModel;
+
 import com.densoft.elasticquery.webclient.service.ElasticQueryWebClient;
+import com.densoft.elasticquerywebclientcommon.model.ElasticQueryWebClientRequestModel;
+import com.densoft.elasticquerywebclientcommon.model.ElasticQueryWebClientResponseModel;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Controller;

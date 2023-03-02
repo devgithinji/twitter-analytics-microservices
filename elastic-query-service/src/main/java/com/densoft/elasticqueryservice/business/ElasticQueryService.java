@@ -1,6 +1,6 @@
 package com.densoft.elasticqueryservice.business;
 
-import com.densoft.elasticqueryservice.model.ElasticQueryServiceResponseModel;
+import com.densoft.elasticqueryservicecommon.model.ElasticQueryServiceResponseModel;
 
 import java.util.List;
 
